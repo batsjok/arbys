@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .header{
+        display: flex;
+        justify-content: space-between;
+        background-color: red;
+        height: 80px;
+        align-items: center;
+        padding:0px 15px;
+
+        
+    }
+    .lınk{
+        text-decoration: none;
+        text-transform:uppercase;
+        font-size: medium;
+        color: aliceblue;
+        display: flex;
+        justify-content:right;
+    }
+    .lınk:hover{
+        color: black;
+    }
+    .banner{
+        text-align: center;
+        padding: 30px;
+        margin: auto ;
+        margin-bottom: 30px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-transform:uppercase;
+        font-size: larger;
+        
+        
+    }
+    .imgdiv{
+        width: 400px;
+        border: 2px solid red;
+        text-align: center;
+        border-radius: 30px;
+        text-transform: capitalize;
+        
+    }
+    .imgdiv h2{
+        padding: 0px;
+        border: 2px solid burlywood;
+        border-radius: 2px;
+        border-width: thin;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .efs{
+        width: 100%;
+        border-radius: 30px;
+        border: 2px solid red;
+    }
+    
+    .flex{
+        display: flex;
+        justify-content: space-around;
+    }
+    .spt{
+        background-color: rgb(255, 98, 0);
+        color: aliceblue;
+        padding: 10px;
+        border-radius: 20px;
+        border-color: none;
+        text-transform: capitalize;
+        color: black;
+    }
+    .spt:hover{
+        background-color: olivedrab;
+    }
+    .asko:hover{
+        background-color: purple;
+    }
+    .footer{
+        background-color: red;
+        display: flex;
+        justify-content:space-around;
+        padding: 10px;
+        text-transform: capitalize;
+        font-size: large;
+
+    }
+    .mobileIcon{
+        display: none;
+    }
+    
+        
+    
+</style>
+<body>
+    <div class="header">
+    <div class="mobileIcon">
+        <img src="logo.png" height="65px" width="90px">
+    </div>
+    
+    <div>
+        <a href="" class="lınk">ürünler</a>
+        <a href="" class="lınk">restoranlar</a>
+        <a href="" class="lınk">kampanyalar</a>
+    </div>
+    </div>
+
+    <div class="banner" style="background-image: url('arbys-1300x740.jpeg'); height: 600px; ">
+        <h2 style="padding-top: 200px; color: rgb(211, 40, 40);">etçiyiz biz</h2>
+        
+    </div>
+
+    <div class="flex
+    ">
+        <div class="imgdiv">
+            <img src="beef.png" class="efs">
+            <h2>roats beef</h2>
+            <h3>89,95</h3>
+            <h3>menü: 109,95</h3>
+            <button class="spt">Sepete ekle</button>
+        </div>
+        <div class="imgdiv">
+            <img src="tavukk.png" class="efs">
+            <h2>Tavuk burger</h2>
+            <h3>69,95</h3>
+            <h3>menü: 89,95</h3>
+            <button class="spt">Sepete ekle</button>
+        </div>
+        <div class="imgdiv">
+            <img src="baget.png" class="efs">
+            <h2>Tavuk baget</h2>
+            <h3>79,95</h3>
+            <h3>menü: 99,95</h3>
+            <button class="spt asko">Sepete ekle</button>
+        </div>
+       
+    </div>
+
+    <div class="footer">
+
+        <p style="padding-right: 20px;">anasayfa <br><br><br> hakkımızda</p>
+        
+        <img src="logo.png" height="65px" width="90px">
+        <p style="padding-left: 20px;">burgerler <br><br><br> restoranlar</p>
+
+    </div>
+
+    
+</body>
+</html>
